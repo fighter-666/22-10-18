@@ -1,0 +1,91 @@
+/*重置浏览器默认样式*/
+body,ul,input,p,dl,dt,dd,h1{margin:0;padding:0;}
+/*全局控制*/
+body{min-width:755px;color:#6C6C6C;font-size:12px;}
+/*定义公共样式*/
+ul{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.left{float:left;}
+.right{float:right;}
+/*用户信息栏*/
+body{position: relative;
+margin: 0;
+padding: 0;
+}
+
+#head{
+	height: 150px;
+	width:900px;
+	float: left;
+	border: 0px solid blue;
+	padding: 0px 20%;
+}
+#top{
+	
+	width:100%;
+	float: left;
+	border: 0px solid red;
+	
+	
+}
+#top .top_nav{
+	
+	margin:0 auto;
+	float: left;
+	background: #0000FF;
+	margin-left: 5%;
+}
+#top ul{margin:0 20px;}
+#top ul li{
+	float:left;
+	padding:0px 5px 0px 0px;
+	/*background: #f00;*/
+}
+#top .line{color:#CCC;}
+.right li{ cursor:pointer;}
+.right li span{ padding:0px 1px; background: blue; color: white; font-size: 24px;}
+/*下拉列表*/
+.right .ul00{position: relative;}
+.right #ul01{
+ 	width: 95px;
+ 	display:none;
+ 	position:absolute;
+ 	left:0;
+ 	top:30px; 
+ 
+ 	background-color:#FFF;
+ 	border:thin; 
+ 	border-color:EEE; }
+.right #ul01 a{
+	display:block;
+	padding:0 5px; 
+	line-height:28px;
+	color:#6C6C6C;}
+.right #ul01 a:hover{background:#F5F5F5;}
+
+#left{
+	border: 2px solid blue;
+	float: left;
+	width: 20%;
+	height: 400px;
+	font-size: 20px;
+	text-align: center;
+	background-color: lightgrey;
+	color: black;
+
+}
+#main{
+	height: 170px;
+	width: 79%;
+	float: left;
+	border: 0px solid orange;
+}
+#bottom{
+	height:600px;
+	width: 1000px;
+	float: left;
+	border: 1px solid orange;
+	font-size: 24px;
+	font-family: 宋体;
+}
